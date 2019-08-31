@@ -1,0 +1,23 @@
+{
+  "name": "demo-web-app",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Souvikcse/Demo_Web_application.git"
+  },
+  "author": "Souvik Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Souvikcse/Demo_Web_application/issues"
+  },
+  "homepage": "https://github.com/Souvikcse/Demo_Web_application#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.18.0"
+  }
+}
