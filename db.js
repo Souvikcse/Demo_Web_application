@@ -35,6 +35,11 @@ const Product = db.define('products', {
     }
 })
 
+    db.sync()
+        .then(() => {console.log('Database has been synced');
+        })
+        .catch((err) => {})
+
 module.exports = {
     User, Product
 }
